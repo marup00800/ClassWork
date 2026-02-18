@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.Laptop {
+    display: inline-block;
+    width: 250px;
+    border: 2px solid black;
+    background-color: #e6f2ff;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    vertical-align: top;
+}
+
+
+.Smartwatch {
+    display: inline-block;
+    width: 250px;
+    border: 2px solid black;
+    background-color: #fff0f5;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    vertical-align: top;
+}
+
+
+.Headphones {
+    display: inline-block;
+    width: 250px;
+    border: 2px solid black;
+    background-color: #f0fff0;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    vertical-align: top;
+}
+
+
+.price {
+    font-weight: bold;
+    color: darkgreen;
+}
