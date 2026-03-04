@@ -1,0 +1,72 @@
+/* *{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.email{
+    color: #f2542d;
+    font-size: 50px;
+
+}
+
+.password{
+    color: #cd9937;
+    font-size: 50px;
+}
+
+.emailField{
+    width: 260px;
+    text-align: center;
+    font-size: 20px;   
+}
+
+.passwordField{
+    width: 260px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+} */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+#navbar{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+
+}
+
+#logo{
+    font-size: 40px;
+    color: rgb(239, 123, 51);
+    padding-bottom: 60px;
+}
+
+input{
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+button{
+    height: 30px;
+    background-color: rgb(255, 146, 21);
+    font-size: 20px;
+    
+}
+
+a{
+   margin-right: 330px;
+   font-size: 40px;
+   text-decoration: none;
+}
