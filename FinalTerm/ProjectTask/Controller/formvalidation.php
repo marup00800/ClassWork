@@ -25,13 +25,12 @@ if(empty($email)){
 
 
 if($hasError){
-    header("Location: ../View/form.php");
+    header("Location: ../view/form.php");
     exit();
 }
 
 echo "<h2>Form Submitted Successfully</h2>";
 echo "Username: " . $username . "<br>";
-echo "Name: " . $name . "<br>";
 echo "Email: " . $email . "<br>";
-echo "Phone: " . $phone . "<br>";
+
 ?>

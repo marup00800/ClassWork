@@ -5,10 +5,9 @@ $username = $_SESSION["username"] ?? "";
 $email = $_SESSION["email"] ?? "";
 
 $usernameErr = $_SESSION["usernameErr"] ?? "";
-$nameErr = $_SESSION["nameErr"] ?? "";
 $emailErr = $_SESSION["emailErr"] ?? "";
 
-unset($_SESSION["usernameErr"], $_SESSION["nameErr"], $_SESSION["emailErr"], $_SESSION["phoneErr"]);
+unset($_SESSION["usernameErr"], $_SESSION["emailErr"]);
 ?>
 
 <html>
